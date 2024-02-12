@@ -1,16 +1,35 @@
-<div class="navbar">
-<ul class="nav">
-    <li class="nav-item">
-    <a class="nav-link active" href="./index.html">Home</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="./aboutme.html">About Me</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="./dev.html">Dev Page</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link disabled" tabindex="-1" aria-disabled=""true href="#">Taking Note: Coming Soon!</a>
-    </li>
-</ul>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding-top: 1%; padding-bottom: 1%;">
+    <div class="container-fluid">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- <a class="navbar-brand fs-3" style="font-family: 'Times New Roman', Times, serif;" href="./index">Kristina Sutterlin</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./aboutme.html">About Me</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="./dev.html">Dev Page</a>
+                </li> -->
+                <li class="nav-item">
+                <a class="nav-link disabled" tabindex="-1" aria-disabled=""true href="#">Taking Note: Coming Soon!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- <script>
+    $(function() {
+   $("li").click(function() {
+      // remove classes from all
+      $("li").removeClass("active");
+      // add class to the one we clicked
+      $(this).addClass("active");
+   });
+});
+</script> -->
